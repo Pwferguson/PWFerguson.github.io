@@ -107,6 +107,8 @@
 												<div class="column">
 													<iframe width=50% src="https://www.youtube.com/embed/1N0_kgF-Z_4" title="OTHER Hand Demonstration" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 												</div>
+
+												
 												<div class="column">
 													<h3>The OTHER Hand</h3>
 												<p>The Opposable Thumb Hand Exoskeleton for Rehabilitation (OTHER Hand) is a robotic hand exoskeleton for rehabilitation to be mounted on the EXO-UL8 and Blue Sabino upper limb exoskeletons as part of NSF Award #1532239. 
@@ -125,6 +127,24 @@
 												</p>
 												</div>
 											</div>
+
+											<input type="file" accept="video/*"><br>
+<video controls></video>
+<script type="text/javascript">
+ (function localFileVideoPlayer() {
+   'use strict'
+   var playSelectedFile = function(event) {
+   var file = this.files[0]
+   var URL = window.URL || window.webkitURL 
+   var fileURL = URL.createObjectURL(file)
+   var videoNode = document.querySelector('video')
+   videoNode.src = fileURL
+   }
+  var inputNode = document.querySelector('input')
+  inputNode.addEventListener('change', playSelectedFile, false)
+ })()
+</script>
+
 											<!--
 											<div class="inner">
 												<h3>The OTHER Hand</h3>
