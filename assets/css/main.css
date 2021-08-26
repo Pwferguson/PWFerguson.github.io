@@ -49,6 +49,7 @@ ol, ul {
 	content: "[B" counter(bookcounter) "] ";
 	/* increment counter */
 	counter-increment: bookcounter;
+	font-weight: bold;
 }
 
 #chapterlist {
@@ -63,6 +64,7 @@ ol, ul {
 	content: "[BC" counter(chaptercounter) "] ";
 	/* increment counter */
 	counter-increment: chaptercounter;
+	font-weight: bold;
 }
 
 #conflist {
@@ -77,6 +79,7 @@ ol, ul {
 	content: "[C" counter(confcounter) "] ";
 	/* increment counter */
 	counter-increment: confcounter;
+	font-weight: bold;
 }
 
 #journallist {
@@ -91,6 +94,7 @@ ol, ul {
 	content: "[J" counter(journalcounter) "] ";
 	/* increment counter */
 	counter-increment: journalcounter;
+	font-weight: bold;
 }
 
 #posterlist {
@@ -105,6 +109,7 @@ ol, ul {
 	content: "[P" counter(postercounter) "] ";
 	/* increment counter */
 	counter-increment: postercounter;
+	font-weight: bold;
 }
 
 
