@@ -2905,6 +2905,10 @@ input, select, textarea {
 			#main > section > .container {
 				padding: 4em 0 2em 0;
 			}
+		
+		/* Column */
+
+		#Column{width: 45%;}
 
 	}
 
@@ -2929,6 +2933,10 @@ input, select, textarea {
 			#wrapper {
 				padding-right: 20em;
 			}
+
+		/* Column */
+
+		#Column{width: 45%;}
 
 	}
 
@@ -3104,6 +3112,10 @@ input, select, textarea {
 				transform: translateX(0);
 			}
 
+			/* Column */
+
+			#Column{width: 45%;}
+
 	}
 
 /* Small */
@@ -3249,6 +3261,10 @@ input, select, textarea {
 				transform: translateX(-17em);
 			}
 
+		/* Column */
+
+			#Column{width: 100%;}
+
 	}
 
 /* XSmall */
@@ -3268,7 +3284,7 @@ input, select, textarea {
 		/* List */
 
 			ul.actions {
-				margin: 0 0 1.125em 0;
+				margin: 0 0 2.25em 0;
 			}
 
 				ul.actions li {
@@ -3312,5 +3328,9 @@ input, select, textarea {
 			.button {
 				padding: 0;
 			}
+		
+		/* Column */
+
+		#Column{width: 100%;}
 
 	}
