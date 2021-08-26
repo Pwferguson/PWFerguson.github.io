@@ -2685,6 +2685,12 @@ input, select, textarea {
 				margin-bottom: 0;
 			}
 
+/* Video */
+video{width: 48%;
+	vertical-align:middle;
+	padding-right:2.5em;
+}
+
 /* Header */
 
 	#header {
@@ -2906,10 +2912,6 @@ input, select, textarea {
 				padding: 4em 0 2em 0;
 			}
 		
-		/* Column */
-
-		.Column{width: 45%;}
-
 	}
 
 /* Large */
@@ -2933,11 +2935,6 @@ input, select, textarea {
 			#wrapper {
 				padding-right: 20em;
 			}
-
-		/* Column */
-
-		.Column{width: 45%;}
-
 	}
 
 /* Medium */
@@ -3112,10 +3109,6 @@ input, select, textarea {
 				transform: translateX(0);
 			}
 
-			/* Column */
-
-			.Column{width: 45%;}
-
 	}
 
 /* Small */
@@ -3261,10 +3254,8 @@ input, select, textarea {
 				transform: translateX(-17em);
 			}
 
-		/* Column */
-
-			.Column{width: 100%;}
-
+		/* Video */
+		video{width: 100%;}
 	}
 
 /* XSmall */
@@ -3329,8 +3320,6 @@ input, select, textarea {
 				padding: 0;
 			}
 		
-		/* Column */
-
-		.Column{width: 100%;}
-
+		/* Video */
+		video{width: 100%;}
 	}
