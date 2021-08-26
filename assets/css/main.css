@@ -37,6 +37,77 @@ ol, ul {
 	list-style: none;
 }
 
+#booklist {
+	/* delete default counter */
+	list-style-type: none;
+	/* create custom counter and set it to 0 */
+	counter-reset: bookcounter;
+  }
+  
+  #booklist>li:before {
+	/* print out "Element " followed by the current counter value */
+	content: "[B" counter(bookcounter) "] ";
+	/* increment counter */
+	counter-increment: bookcounter;
+}
+
+#chapterlist {
+	/* delete default counter */
+	list-style-type: none;
+	/* create custom counter and set it to 0 */
+	counter-reset: chaptercounter;
+  }
+  
+  #chapterlist>li:before {
+	/* print out "Element " followed by the current counter value */
+	content: "[BC" counter(chaptercounter) "] ";
+	/* increment counter */
+	counter-increment: chaptercounter;
+}
+
+#conflist {
+	/* delete default counter */
+	list-style-type: none;
+	/* create custom counter and set it to 0 */
+	counter-reset: confcounter;
+  }
+  
+  #conflist>li:before {
+	/* print out "Element " followed by the current counter value */
+	content: "[C" counter(confcounter) "] ";
+	/* increment counter */
+	counter-increment: confcounter;
+}
+
+#journallist {
+	/* delete default counter */
+	list-style-type: none;
+	/* create custom counter and set it to 0 */
+	counter-reset: journalcounter;
+  }
+  
+  #journallist>li:before {
+	/* print out "Element " followed by the current counter value */
+	content: "[J" counter(journalcounter) "] ";
+	/* increment counter */
+	counter-increment: journalcounter;
+}
+
+#posterlist {
+	/* delete default counter */
+	list-style-type: none;
+	/* create custom counter and set it to 0 */
+	counter-reset: postercounter;
+  }
+  
+  #posterlist>li:before {
+	/* print out "Element " followed by the current counter value */
+	content: "[P" counter(postercounter) "] ";
+	/* increment counter */
+	counter-increment: postercounter;
+}
+
+
 blockquote, q {
 	quotes: none;
 }
