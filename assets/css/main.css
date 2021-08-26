@@ -2908,7 +2908,7 @@ input, select, textarea {
 		
 		/* Column */
 
-		#Column{width: 45%;}
+		.Column{width: 45%;}
 
 	}
 
@@ -2936,7 +2936,7 @@ input, select, textarea {
 
 		/* Column */
 
-		#Column{width: 45%;}
+		.Column{width: 45%;}
 
 	}
 
@@ -3114,7 +3114,7 @@ input, select, textarea {
 
 			/* Column */
 
-			#Column{width: 45%;}
+			.Column{width: 45%;}
 
 	}
 
@@ -3263,7 +3263,7 @@ input, select, textarea {
 
 		/* Column */
 
-			#Column{width: 100%;}
+			.Column{width: 100%;}
 
 	}
 
@@ -3331,6 +3331,6 @@ input, select, textarea {
 		
 		/* Column */
 
-		#Column{width: 100%;}
+		.Column{width: 100%;}
 
 	}
