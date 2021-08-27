@@ -66,6 +66,20 @@ ul.a li::before{
 	margin-left: -1em;
 }
 
+
+ul.b li{
+	list-style: none;
+}
+
+ul.b li::before{
+	content: "\25B8";
+	color: #4acaa8;
+	font-weight: normal;
+	display: inline-block; 
+	width: 1em;
+	margin-left: -1em;
+}
+
 #booklist {
 	/* delete default counter */
 	list-style-type: none;
