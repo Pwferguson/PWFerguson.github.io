@@ -2959,7 +2959,12 @@ video{width: 48%;
 						color: #ffffff !important;
 						display: block;
 						padding: 0.75em 0;
+						margin-top: -1.75em;
 						text-decoration: none;
+					}
+
+					#header > nav ul li::before{
+						content: "";
 					}
 
 						#header > nav ul li a.active {
@@ -2969,6 +2974,7 @@ video{width: 48%;
 
 					#header > nav ul li:first-child {
 						border-top: 0;
+						margin-top: 1em;
 					}
 
 /* Wrapper */
