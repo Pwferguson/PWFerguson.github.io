@@ -2586,7 +2586,7 @@ input, select, textarea {
 		}
 
 		ul.icons li:first-child{
-			padding-left: 0 !important;
+			padding-left: 0.75 !important;
 		}
 
 		footer ul.icons li {
