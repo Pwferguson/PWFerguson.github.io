@@ -170,6 +170,21 @@ ul.blank li::before{
 	font-weight: bold;
 }
 
+#patentlist {
+	/* delete default counter */
+	list-style-type: none;
+	/* create custom counter and set it to 0 */
+	counter-reset: patentcounter;
+  }
+  
+  #patentlist>li:before {
+	/* print out "Element " followed by the current counter value */
+	content: "[PAT" counter(patentcounter) "] ";
+	/* increment counter */
+	counter-increment: patentcounter;
+	font-weight: bold;
+}
+
 
 blockquote, q {
 	quotes: none;
